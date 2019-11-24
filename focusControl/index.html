@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Focus Control</title>
+    <link rel="stylesheet" href="./css/modal.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+        <!-- A button to toggle the modal -->
+        <button class="focus-modal-button btn btn-primary">Click Me</button>
+
+        <!-- The actual modal -->
+        <div class="focus-modal">
+          <h1>Sign up for free!</h1>
+
+          <p>Sign up today!</p>
+
+          <form>
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="focus-modal-cancel">Cancel</button>
+            <input type="submit" value="Submit" />
+          </form>
+
+        </div>
+
+        <!-- A grey overlay for the background -->
+        <div class="focus-modal-overlay"></div>
+
+
+        <h2>This Modal Needs To:</h2>
+
+        <ul>
+          <li>Focus inside the modal on load</li>
+          <li>Close the modal when escape key is pressed</li>
+          <li>Not allow tab to focus anything outside of the modal</li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/modal.js"></script>
+  </body>
+</html>
